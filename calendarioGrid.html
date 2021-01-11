@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+    
+        .calendar{
+            display: grid;
+            grid-template-columns: repeat(7, 1fr);
+            justify-items: center;
+            gap: 0.5rem;
+            background-color: rgb(75, 42, 104);
+            gap: 1.4rem 1rem;
+            width: 30rem;
+            padding: 1rem 1rem 5rem 1rem;
+        }
+
+        .hour{
+            display: block;
+            background-color: rgb(75, 42, 104);
+            border: none;
+            color: white;
+            font: 3rem 'Segoe UI';
+            padding: 1rem 15rem 0rem 2rem;
+            border-top: 0.01rem solid white;
+        }
+
+        .date{
+            background-color: rgb(75, 42, 104);
+            border: none;
+            color: white;
+            font: 1rem 'Segoe UI';
+            text-decoration: underline;
+            padding: 0rem 15rem 1rem 2rem;
+        }
+
+        .month{
+            display: block;
+            background-color: rgb(75, 42, 104);
+            border: none;
+            color: white;
+            font: 1rem 'Segoe UI';
+            padding: 1rem 15rem 1rem 2rem;
+            border-top: 0.01rem solid white;
+        }
+
+        .day{
+            background-color: rgb(75, 42, 104);
+            box-sizing: border-box;
+            height: 150%;
+            border: none;
+            color: white;
+            font: 1rem 'Segoe UI';
+        }
+
+        .firstDay{
+            grid-column: 5;
+            background-color: rgb(75, 42, 104);
+            box-sizing: border-box;
+            height: 150%;
+            border: none;
+            color: white;
+            font: 1rem 'Segoe UI';
+        }
+
+        .today{
+            background-color:rgb(128, 83, 173);
+            box-sizing: border-box;
+            height: 150%;
+            border: 0.15rem solid black;
+            outline: 0.15rem solid rgb(128, 83, 173);
+            color: white;
+            font: 1rem 'Segoe UI';
+        }
+
+    </style>
+</head>
+<body>
+    <div class="whole">
+
+    <button class="hour">04:07:31</button>
+    <button class="date">Monday, 11 January 2021</button>
+    <button class="month">January 2021</button>
+    <div class="calendar">
+        <button class="day">Mo</button>
+        <button class="day">Tu</button>
+        <button class="day">We</button>
+        <button class="day">Th</button>
+        <button class="day">Fr</button>
+        <button class="day">Sa</button>
+        <button class="day">Su</button>
+        <button class="firstDay">1</button>
+        <button class="day">2</button>
+        <button class="day">3</button>
+        <button class="day">4</button>
+        <button class="day">5</button>
+        <button class="day">6</button>
+        <button class="day">7</button>
+        <button class="day">8</button>
+        <button class="day">9</button>
+        <button class="day">10</button>
+        <button class="today">11</button>
+        <button class="day">12</button>
+        <button class="day">13</button>
+        <button class="day">14</button>
+        <button class="day">15</button>
+        <button class="day">16</button>
+        <button class="day">17</button>
+        <button class="day">18</button>
+        <button class="day">19</button>
+        <button class="day">20</button>
+        <button class="day">21</button>
+        <button class="day">22</button>
+        <button class="day">23</button>
+        <button class="day">24</button>
+        <button class="day">25</button>
+        <button class="day">26</button>
+        <button class="day">27</button>
+        <button class="day">28</button>
+        <button class="day">29</button>
+        <button class="day">30</button>
+        <button class="day">31</button>
+    </div>
+
+    </div>
+</body>
+</html>
